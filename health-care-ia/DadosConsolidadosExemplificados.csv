@@ -1,25 +1,25 @@
-Tabela consolidada de informações dos pacientes ;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-A) Body Height;;;;;;;;;;;;;;;
-B) Body Weight;;;;;;;;;;;;;;;
-C) Body Mass Index;;;;;;;;;;;;;;;
-D) Systolic Blood Pressure;;;;;;;;;;;;;;;
-E) Diastolic Blood Pressure;;;;;;;;;;;;;;;
-F) Oral temperature;;;;;;;;;;;;;;;
-G) Calcium;;;;;;;;;;;;;;;
-H) DXA [T-score] Bone density;;;;;;;;;;;;;;;
-I) Glucose;;;;;;;;;;;;;;;
-J) Potassium;;;;;;;;;;;;;;;
-K) Sodium;;;;;;;;;;;;;;;
-L) Triglycerides;;;;;;;;;;;;;;;
-M) Total Cholesterol;;;;;;;;;;;;;;;
-N) Low Density Lipoprotein Cholesterol;;;;;;;;;;;;;;;
-O) High Density Lipoprotein Cholesterol;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-A;B;C;D;E;F;G;H;I;J;K;L;M;N;O;P
-151.11;87.9;38.5;129.0;80.0;37.44;0;0;0;0;0;91.0;197.0;91.0;76.0;Acute bronchitis (disorder)
+Tabela consolidada de informações dos pacientes ;;;;;;;;;
+;;;;;;;;;
+A) Body Height;;;;;;;;;
+B) Body Weight;;;;;;;;;
+C) Body Mass Index;;;;;;;;;
+D) Systolic Blood Pressure;;;;;;;;;
+E) Diastolic Blood Pressure;;;;;;;;;
+F) Oral temperature;;;;;;;;;
+G) Triglycerides;;;;;;;;;
+H) Total Cholesterol;;;;;;;;;
+I) Diagnostico;;;;;;;;;
+J) ClassificaÁ„o de Manchester;1 = Emergente, 2 = Muito Urgente, 3 = Urgente, 4 = Pouco Urgente, 5 = N„o Urgente;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+A;B;C;D;E;F;G;H;I;J
+151.11;87.9;38.5;129.0;80.0;37.44;91.0;197.0;1;1
