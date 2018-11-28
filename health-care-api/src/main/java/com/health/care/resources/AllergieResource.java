@@ -6,6 +6,7 @@ import java.util.List;
 import com.health.care.config.Config;
 import com.health.care.domain.Allergie;
 import com.health.care.repository.AllergieRepository;
+import com.health.care.service.HealthCareService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
@@ -25,6 +26,9 @@ public class AllergieResource {
 
     @Autowired
     private AllergieRepository r;
+
+    @Autowired
+    private HealthCareService ser;
 
     @GetMapping
     public List<Allergie> listAllergies(@ApiIgnore Pageable page) {

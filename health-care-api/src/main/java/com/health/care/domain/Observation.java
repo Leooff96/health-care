@@ -29,7 +29,7 @@ public class Observation {
     @Field("DESCRIPTION")
     private String Description;
     @Field("VALUE")
-    private Double Value;
+    private String Value;
     @Field("UNITS")
     private String Units;
 
@@ -108,13 +108,13 @@ public class Observation {
     /**
      * @param value the value to set
      */
-    public void setValue(Double value) {
+    public void setValue(String value) {
         Value = value;
     }
     /**
      * @return the value
      */
-    public Double getValue() {
+    public String getValue() {
         return Value;
     }
 }

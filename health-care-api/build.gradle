@@ -17,7 +17,7 @@ apply plugin: 'io.spring.dependency-management'
 
 group = 'com.smart.health'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = 1.8
+sourceCompatibility = 10
 
 repositories {
 	mavenCentral()
@@ -25,6 +25,8 @@ repositories {
 
 
 dependencies {
+	compile group: 'com.opencsv', name: 'opencsv', version: '4.4'
+
 	compile("org.projectlombok:lombok")
 	compile("com.fasterxml.jackson.dataformat:jackson-dataformat-xml")
 	compile("org.springframework.boot:spring-boot-starter-data-rest")

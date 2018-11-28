@@ -23,7 +23,7 @@ public class Encounter{
     @Field("PATIENT")
     private String patient;
     @Field("CODE")
-    private Integer code;
+    private Long code;
     @Field("DESCRIPTION")
     private String description;
     @Field("REASONCODE")
@@ -34,13 +34,13 @@ public class Encounter{
     /**
      * @param code the code to set
      */
-    public void setCode(Integer code) {
+    public void setCode(Long code) {
         this.code = code;
     }
     /**
      * @return the code
      */
-    public Integer getCode() {
+    public Long getCode() {
         return code;
     }
     /**

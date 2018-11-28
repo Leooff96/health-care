@@ -20,7 +20,7 @@ public class Allergie{
     @Field("PATIENT")
     private String patient;
     @Field("CODE")
-    private Integer code;
+    private Long code;
     @Field("DESCRIPTION")
     private String description;
 
@@ -39,13 +39,13 @@ public class Allergie{
     /**
      * @param code the code to set
      */
-    public void setCode(Integer code) {
+    public void setCode(Long code) {
         this.code = code;
     }
     /**
      * @return the code
      */
-    public Integer getCode() {
+    public Long getCode() {
         return code;
     }
     /**

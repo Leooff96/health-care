@@ -21,7 +21,7 @@ public class Claim{
     @Field("BILLABLEPERIOD")
     private String billableperiod;
     @Field("TOTAL")
-    private Integer total;
+    private Long total;
     @Field("ORGANIZATION")
     private String organization;
     @Field("ENCOUNTER")
@@ -92,13 +92,13 @@ public class Claim{
     /**
      * @param total the total to set
      */
-    public void setTotal(Integer total) {
+    public void setTotal(Long total) {
         this.total = total;
     }
     /**
      * @return the total
      */
-    public Integer getTotal() {
+    public Long getTotal() {
         return total;
     }
 }
