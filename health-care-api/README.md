@@ -5,5 +5,5 @@
     Rodar o Script insertMongo.sh dentro de health-care/health-care-data/csv
     Compitar o Projeto com o comando:  **gradlew build**
     Rodar o Projeto com comando:  **gradlew bootRun**
-    Acessar a Documentação da Api: [Swagger](http://localhost:8080/swagger-ui.html/)
+    Acessar a Documentação da Api: [Swagger](http://localhost:8080/swagger-ui.html)
     
